@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevPulse — Modern Flexbox Landing Page</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- External Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Section 1: Navigation Bar -->
+    <header class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#">Dev<span class="highlight">Pulse</span></a>
+            </div>
+            
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#cta">Get Started</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#cta" class="btn btn-primary btn-sm">Join Now</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Section 2: Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <span class="badge">Next-Gen Web Design</span>
+                    <h1>Master Modern CSS Layouts with Precision</h1>
+                    <p>
+                        Build fast, accessible, and fully responsive web applications using pure CSS Flexbox, design tokens, and modular site architectures.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#cta" class="btn btn-primary">Start Building Free</a>
+                        <a href="#features" class="btn btn-outline">Explore Features</a>
+                    </div>
+                </div>
+
+                <div class="hero-media">
+                    <div class="hero-image-card">
+                        <div class="preview-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="preview-body">
+                            <code>
+                                <span class="code-keyword">.container</span> {<br>
+                                &nbsp;&nbsp;<span class="code-prop">display</span>: flex;<br>
+                                &nbsp;&nbsp;<span class="code-prop">justify-content</span>: space-between;<br>
+                                &nbsp;&nbsp;<span class="code-prop">align-items</span>: center;<br>
+                                &nbsp;&nbsp;<span class="code-prop">flex-wrap</span>: wrap;<br>
+                                &nbsp;&nbsp;<span class="code-prop">gap</span>: var(--spacing-lg);<br>
+                                }
+                            </code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: 3 Feature Cards Section -->
+        <section id="features" class="features-section">
+            <div class="section-header">
+                <h2>Why Developers Choose DevPulse</h2>
+                <p>Designed from the ground up for modern web standards and rapid UI development.</p>
+            </div>
+
+            <div class="features-container">
+                <!-- Feature Card 1 -->
+                <article class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Lightning Fast Flex Layouts</h3>
+                    <p>
+                        Create robust horizontal and vertical UI components without complex math or float clearfixes.
+                    </p>
+                </article>
+
+                <!-- Feature Card 2 -->
+                <article class="feature-card">
+                    <div class="feature-icon">📱</div>
+                    <h3>100% Mobile Responsive</h3>
+                    <p>
+                        Content scales and wraps naturally across mobile phones, tablets, and large widescreen displays.
+                    </p>
+                </article>
+
+                <!-- Feature Card 3 -->
+                <article class="feature-card">
+                    <div class="feature-icon">🎨</div>
+                    <h3>Design Token System</h3>
+                    <p>
+                        Centralized CSS variables ensure seamless site-wide theme updates and brand consistency.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section 4: Call-to-Action Section -->
+        <section id="cta" class="cta-section">
+            <div class="cta-container">
+                <h2>Ready to Level Up Your Frontend Skills?</h2>
+                <p>Join thousands of student developers mastering modern web development workflows today.</p>
+                <div class="cta-actions">
+                    <a href="#" class="btn btn-light">Create Your Free Account</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Section 5: Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <a href="#" class="logo">Dev<span class="highlight">Pulse</span></a>
+                <p>Empowering frontend developers with semantic standards and modular CSS layouts.</p>
+            </div>
+
+            <div class="footer-nav">
+                <div class="footer-col">
+                    <h4>Navigation</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#cta">Get Started</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="https://developer.mozilla.org" target="_blank" rel="noopener noreferrer">MDN Docs</a></li>
+                        <li><a href="#">Flexbox Guide</a></li>
+                        <li><a href="#">CSS Tokens</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 DevPulse Mini-Project. Built with HTML5 &amp; CSS Flexbox.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
